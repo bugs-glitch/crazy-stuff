@@ -1,0 +1,151 @@
+/*general attributes*/
+body {
+	
+	background-color: #B3F060;
+	margin: 0 auto;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+
+}
+
+h1 {
+
+	font-size: 22px;
+	text-align:center;
+	color: #333;
+
+}
+
+h3 {
+
+	font-size: 18px;
+	text-align:center;
+
+}
+
+.p1 {
+
+	font-size: 11px;
+	line-height: 12px;
+	color: #F16824;
+	font-weight: normal;
+	text-align: left;
+	margin:4px;
+	padding:0px;
+
+}
+
+.p2 {
+
+	font-size: 12px;
+	line-height: 13px;
+	color: #F16824;
+	font-weight: bold;
+	text-align: center;
+	margin:8px;
+	padding:0px;
+
+}
+
+
+
+/*link attributes*/
+a {
+
+	color: #F16824;
+	line-height: 11px;
+
+}
+
+a:visited {
+
+	color: #F16824;
+
+}
+
+#localization {
+
+	color: #F16824;
+	font-size: 11px;
+	margin-left: 3px;
+
+}
+
+
+
+
+/*logo attributes*/
+#pbskidslogo{
+
+	float:left;
+	margin-top:20px;
+	margin-left:12px;
+	width:80px;
+	height:1000px;
+
+}
+
+
+
+
+/*flash attributes*/
+#flashcontent{
+	background-position:center top;
+	margin:auto;
+	
+	width:960px;
+	height:600px;
+	
+	white-space:nowrap;
+	float:top;
+
+}
+
+
+
+
+/*footer attributes*/
+#footer{
+	
+	background-position:center top;
+	margin:auto;
+	padding-left:225px;
+	
+	width:960px;
+	height:100px;
+	
+	float:top;
+	
+}
+
+
+
+#funders{
+	
+	margin-top:0px;
+	
+	width:336px;
+	height:72px;
+	
+}
+
+#sponsorText{
+	font-family:Clarendon,Georgia,Baskerville, "Times New Roman", Times, serif;
+	font-size:9px;
+	font-weight:normal;
+	color:#2D8CDB;
+	text-align: left;
+		
+	width:306px;	
+	float: right;
+	
+	margin-top:-59px;
+	margin-right:290px;
+	
+}
+
+#sponsorText .contact {
+	display: block;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
