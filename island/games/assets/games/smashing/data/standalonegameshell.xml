@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<superwhysite>
+	<libraries>
+		<library id="globalui" url="assets/games/smashing/libraries/globalui_standalone.swf" />
+		<library id="transitions" url="assets/games/smashing/libraries/transitions.swf" />
+	</libraries>
+	
+	<sections>
+
+		<section id="home" url="data/home.xml" />
+		<section id="games" url="data/games.xml" />
+		<section id="storybrookvillage" url="data/storybrookvillage.xml" />
+		<section id="superstuff" url="data/superstuff.xml" />
+		<section id="alphapig" url="data/alphapig.xml" />
+		<section id="princesspresto" url="data/princesspresto.xml" />
+		<section id="superwhy" url="data/superwhy.xml" />
+		<section id="wonderred" url="data/wonderred.xml" />
+	</sections>
+	
+	<games>
+
+		<game id="alphapigbingo" url="assets/games/smashing/sections/games/alphapigbingo/standalonedata/alphapigbingostandalone.xml" />
+		<game id="princessprestobingo" url="assets/games/smashing/sections/games/princessprestobingo/standalonedata/princessprestobingostandalone.xml" />
+		<game id="superwhybingo" url="assets/games/smashing/sections/games/superwhybingo/standalonedata/superwhybingostandalone.xml" />
+		<game id="wonderredbingo" url="assets/games/smashing/sections/games/wonderredbingo/standalonedata/wonderredbingostandalone.xml" />
+		<game id="storybookcreator" url="assets/games/smashing/sections/games/storybookcreator/standalonedata/storybookcreatorstandalone.xml" />	
+		<game id="freezedance" url="assets/games/smashing/sections/games/freezedance/standalonedata/freezedancestandalone.xml" />
+		<game id="alphabricks" url="assets/games/smashing/sections/games/alphabricks/standalonedata/alphabricksstandalone.xml" />
+		<game id="superhero" url="assets/games/smashing/sections/games/superhero/standalonedata/superherostandalone.xml" />
+		<game id="rhymenroll" url="assets/games/smashing/sections/games/rhymenroll/standalonedata/rhymenrollstandalone.xml" />
+		<game id="rescue" url="assets/games/smashing/sections/games/rescue/standalonedata/rescuestandalone.xml" />
+		<game id="srcalphabet" url="assets/games/smashing/sections/games/superreaderchallenge/standalonedata/srcalphabet.xml" />
+		<game id="srcreading" url="assets/games/smashing/sections/games/superreaderchallenge/standalonedata/srcreading.xml" />
+		<game id="srcspelling" url="assets/games/smashing/sections/games/superreaderchallenge/standalonedata/srcspelling.xml" />
+		<game id="srcwords" url="assets/games/smashing/sections/games/superreaderchallenge/standalonedata/srcwords.xml" />
+		<game id="srcwords" url="assets/games/smashing/sections/games/superreaderchallenge/standalonedata/srcwords.xml" />
+		<game id="alphapigconcentration" url="assets/games/smashing/sections/games/alphapigconcentration/standalonedata/alphapigconcentration.xml" />
+		<game id="wonderredconcentration" url="assets/games/smashing/sections/games/wonderredconcentration/standalonedata/wonderredconcentration.xml" />
+		<game id="princessprestoconcentration" url="assets/games/smashing/sections/games/princessprestoconcentration/standalonedata/princessprestoconcentration.xml" />
+		<game id="superwhyconcentration" url="assets/games/smashing/sections/games/superwhyconcentration/standalonedata/superwhyconcentration.xml" />
+	
+	</games>
+	
+	<transitions>
+		<!--
+		<transition origin="home" destination="storybrookvillage" out="EmptyTransitionOut" in="StoryBrookVillageTransitionIn" />
+		<transition origin="home" destination="alphapig" out="FlashBulbTransitionOut" in="FlashBulbTransitionIn" />
+		<transition origin="home" destination="princesspresto" out="FlashBulbTransitionOut" in="FlashBulbTransitionIn" />
+		<transition origin="home" destination="superwhy" out="FlashBulbTransitionOut" in="FlashBulbTransitionIn" />
+		<transition origin="home" destination="wonderred" out="FlashBulbTransitionOut" in="FlashBulbTransitionIn" />
+		<transition origin="home" destination="games" out="FlashBulbTransitionOut" in="FlashBulbTransitionIn" />
+		-->
+		<transition origin="home" destination="" out="FlashBulbTransitionOut" in="FlashBulbTransitionIn" />
+	</transitions>
+	
+	<globalAssets>
+	</globalAssets>
+	
+	<dirtyWordFilter>
+		<exactMatchList>
+			<![CDATA[a-hole,a_hole,ass,asshole,ass-whipe,ass-wipe,be-yotch,bee-yotch,blowjob,chickenhead,
+			dickhead,f_you,f-ing,fuc,f-you,give head,gives head,hell,tit,tits,gun,guns,god,butt]]>
+		</exactMatchList>
+		<containsList>
+		 	<![CDATA[69,666,ahole,alcohol,alcoholic,anal,anul,anus,arse,arson,
+			arsonist,assassinate,assassination,asshole,asswhipe,asswipe,bang,bastard,beyotch,beeyotch,biatch,
+			bisexual,bitch,blood,blowjob,blunt,bollocks,bollox,bollux,boob,booze,bratz,breast,burn,butts,caca,
+			cancer,chickenhead,christ,cigar,clit,cocaine,cock,coke,condemn,crackhead,cunt,damn,dammit,damnit,decapitate,
+			dead,destroy,dickhead,dike,dipshit,doody,drinker,druggie,drunk,dyke,eradicate,eradicator,evil,execute,
+			execution,exterminate,exterminator,fag,fuck,fuct,fuk,fukt,funeral,fux,fyou,gang,gangbang,gangsta,
+			givehead,giveshead,gook,grave,hangover,heroin,homo,horror,jerk,kike,kill,knife,lesbian,
+			lethal,maniac,motherfucker,murder,nigga,nigger,nympho,penis,piss,playboy,poison,poop,prostitute,pubic,
+			pussi,pussy,queer,rape,rectum,sex,shag,sheepshagger,shit,shite,shoit,shoot,slaughter,slut,speedball,
+			spic,spik,stab,stooped,stupid,suck,sucs,suffocate,suffocation,suicide,suicidal,suks,sux,terror,
+			tosser,transexual,transvestite,twat,urine,vagina,vixen,wanker,warlock,weapon,whore,witch,wop,yerin]]>
+		</containsList>
+	</dirtyWordFilter>
+</superwhysite>
