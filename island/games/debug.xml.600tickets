@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<user id="102287" name="marcho" tickets="600" host="dot">
+	<progress>
+		<level id="1">
+			<game id="1">1</game>
+			<game id="2">1</game>
+			<game id="3">1</game>
+			<game id="4">1</game>
+		</level>
+		<level id="2">
+			<game id="1">1</game>
+			<game id="2">1</game>
+			<game id="3">1</game>
+			<game id="4">1</game>
+		</level>
+		<level id="3">
+			<game id="1">1</game>
+			<game id="2">1</game>
+			<game id="3">1</game>
+			<game id="4">1</game>
+		</level>
+		<level id="4">
+			<game id="1">1</game>
+			<game id="2">1</game>
+			<game id="3">1</game>
+			<game id="4">1</game>
+		</level>
+		<level id="5">
+			<game id="1">1</game>
+			<game id="2">1</game>
+			<game id="3">1</game>
+			<game id="4">1</game>
+		</level>
+		<level id="6">
+			<game id="1">1</game>
+			<game id="2">1</game>
+			<game id="3">1</game>
+			<game id="4">1</game>
+		</level>
+		<level id="7">
+			<game id="1">1</game>
+			<game id="2">1</game>
+			<game id="3">1</game>
+			<game id="4">1</game>
+		</level>
+		<level id="8">
+			<game id="1">1</game>
+			<game id="2">1</game>
+			<game id="3">1</game>
+			<game id="4">0</game>
+		</level>
+	</progress>
+	<treehouse>
+		<prize name="flamingo" xPos="0" yPos="0" prizeBox="false"/>
+	</treehouse>
+	<rides>
+		<ride id="planes" state="active" rideSelectionState="set" level="4"/>
+		<ride id="bumper_cars" state="active" rideSelectionState="set" level="8"/>
+		<ride id="parachute" state="active" rideSelectionState="set" level="7"/>
+		<ride id="teacup" state="active" rideSelectionState="set" level="5"/>
+		<ride id="ferriswheel" state="active" rideSelectionState="unset" level="6"/>
+		<ride id="roller_coaster" state="active" rideSelectionState="set" level="3"/>
+		<ride id="carousel" state="active" rideSelectionState="set" level="1"/>
+		<ride id="train_station" state="active" rideSelectionState="set" level="2"/>
+		<ride id="prize_booth" state="inactive" rideSelectionState="null" level="0"/>
+		<ride id="treehouse" state="inactive" rideSelectionState="null" level="0"/>
+	</rides>
+</user>

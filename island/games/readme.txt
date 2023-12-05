@@ -1,0 +1,1 @@
+Cheat: Automatically get 600 tickets by renaming debug.xml to debug.xml.old and renaming debug.xml.600tickets to debug.xml.
