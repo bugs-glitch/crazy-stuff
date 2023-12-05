@@ -1,0 +1,88 @@
+<game id="superreaderchallenge" hasSponsorBar="false">
+	<title><![CDATA[SUPER WHY! . GAMES . SUPER READER's CHALLENGE | PBS KIDS]]></title>
+	<swf url="assets/games/smashing/sections/games/superreaderchallenge/superreaderchallenge.swf" />
+	<game id="words" />
+	
+	<libraries>
+		<library id="futuratdemeduembedded" url="assets/games/smashing/libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+		<library id="burbankbigcdttbdembedded" url="assets/games/smashing/libraries/burbankbigcdttbdembedded.swf" type="font" name="BurbankBigCdTTBdEmbedded" font="BurbankBigCdTTBdEmbeddedFont" />
+	</libraries>
+	
+	<srcAudio id="srcAudio" isGroup="true">
+		<voiceOver type="audio" id="play" url="assets/games/smashing/sections/games/superreaderchallenge/audio/words/play.mp3" />
+	</srcAudio>
+	
+	<wordsGame>
+		<words>
+			<!-- id values are spoken; soundLikeID values correspond to images -->
+			<word id="bell" imageID="yell" />
+			<word id="bun" imageID="sun" />
+			<word id="car" imageID="jar" />
+			<word id="log" imageID="frog" />
+			<word id="hat" imageID="cat" />
+			<word id="fox" imageID="box" />
+			<word id="rug" imageID="mug" />
+			<word id="truck" imageID="duck" />
+			<word id="nap" imageID="map" />
+		</words>
+		
+		<preloadAssets>
+			<voiceOvers isGroup="true" id="voiceOvers">
+				<voiceOver type="audio" id="rhymes_with" url="assets/games/smashing/sections/games/superreaderchallenge/audio/words/rhymes_with.mp3" />
+				<voiceOver type="audio" id="instructions_red" url="assets/games/smashing/sections/games/superreaderchallenge/audio/words/instructions_red.mp3" />
+				<voiceOver type="audio" id="oops_dont_sound_alike" url="assets/games/smashing/sections/games/superreaderchallenge/audio/words/oops_dont_sound_alike.mp3" />
+			</voiceOvers>
+			<kudos isGroup="true" id="kudos">
+				<asset type="audio" id="kudos_great_rhyming" url="assets/games/smashing/sections/games/superreaderchallenge/audio/words/kudos_great_rhyming.mp3" />
+				<asset type="audio" id="kudos_wonderific" url="assets/games/smashing/sections/games/superreaderchallenge/audio/words/kudos_wonderific.mp3" />
+			</kudos>
+		</preloadAssets>
+		
+		<wordAudio>
+			<word type="audio" id="audio_sun" url="assets/games/smashing/sections/games/superreaderchallenge/audio/words/words/sun.mp3">sun</word>
+			<word type="audio" id="audio_bun" url="assets/games/smashing/sections/games/superreaderchallenge/audio/words/words/bun.mp3">bun</word>
+			<word type="audio" id="audio_car" url="assets/games/smashing/sections/games/superreaderchallenge/audio/words/words/car.mp3">car</word>	
+			<word type="audio" id="audio_jar" url="assets/games/smashing/sections/games/superreaderchallenge/audio/words/words/jar.mp3">jar</word>
+			<word type="audio" id="audio_frog" url="assets/games/smashing/sections/games/superreaderchallenge/audio/words/words/frog.mp3">frog</word>	
+			<word type="audio" id="audio_log" url="assets/games/smashing/sections/games/superreaderchallenge/audio/words/words/log.mp3">log</word>
+			<word type="audio" id="audio_hat" url="assets/games/smashing/sections/games/superreaderchallenge/audio/words/words/hat.mp3">hat</word>
+			<word type="audio" id="audio_cat" url="assets/games/smashing/sections/games/superreaderchallenge/audio/words/words/cat.mp3">cat</word>
+			<word type="audio" id="audio_yell" url="assets/games/smashing/sections/games/superreaderchallenge/audio/words/words/yell.mp3">yell</word>
+			<word type="audio" id="audio_bell" url="assets/games/smashing/sections/games/superreaderchallenge/audio/words/words/bell.mp3">bell</word>
+			<word type="audio" id="audio_box" url="assets/games/smashing/sections/games/superreaderchallenge/audio/words/words/box.mp3">box</word>
+			<word type="audio" id="audio_fox" url="assets/games/smashing/sections/games/superreaderchallenge/audio/words/words/fox.mp3">fox</word>		
+			<word type="audio" id="audio_mug" url="assets/games/smashing/sections/games/superreaderchallenge/audio/words/words/mug.mp3">mug</word>
+			<word type="audio" id="audio_rug" url="assets/games/smashing/sections/games/superreaderchallenge/audio/words/words/rug.mp3">rug</word>		
+			<word type="audio" id="audio_truck" url="assets/games/smashing/sections/games/superreaderchallenge/audio/words/words/truck.mp3">truck</word>
+			<word type="audio" id="audio_duck" url="assets/games/smashing/sections/games/superreaderchallenge/audio/words/words/duck.mp3">duck</word>		
+			<word type="audio" id="audio_map" url="assets/games/smashing/sections/games/superreaderchallenge/audio/words/words/map.mp3">map</word>
+			<word type="audio" id="audio_nap" url="assets/games/smashing/sections/games/superreaderchallenge/audio/words/words/nap.mp3">nap</word>	
+		</wordAudio>
+	</wordsGame>
+
+	<gameElements>
+		<images>
+			<image type="image" id="duck" url="assets/games/smashing/sections/games/superreaderchallenge/images/lineart/duck.swf" />
+			<image type="image" id="box" url="assets/games/smashing/sections/games/superreaderchallenge/images/lineart/box.swf" />
+			<image type="image" id="fox" url="assets/games/smashing/sections/games/superreaderchallenge/images/lineart/fox.swf" />
+			<image type="image" id="frog" url="assets/games/smashing/sections/games/superreaderchallenge/images/lineart/frog.swf" />
+			<image type="image" id="dog" url="assets/games/smashing/sections/games/superreaderchallenge/images/lineart/dog.swf" />
+			<image type="image" id="log" url="assets/games/smashing/sections/games/superreaderchallenge/images/lineart/frog.swf" />
+			<image type="image" id="jar" url="assets/games/smashing/sections/games/superreaderchallenge/images/lineart/jar.swf" />
+			<image type="image" id="key" url="assets/games/smashing/sections/games/superreaderchallenge/images/lineart/key.swf" />
+			<image type="image" id="mug" url="assets/games/smashing/sections/games/superreaderchallenge/images/lineart/mug.swf" />
+			<image type="image" id="rug" url="assets/games/smashing/sections/games/superreaderchallenge/images/lineart/carpet.swf" />
+			<image type="image" id="wolf" url="assets/games/smashing/sections/games/superreaderchallenge/images/lineart/wolf.swf" />
+			<image type="image" id="sun" url="assets/games/smashing/sections/games/superreaderchallenge/images/lineart/sun.swf" />
+			<image type="image" id="zap" url="assets/games/smashing/sections/games/superreaderchallenge/images/lineart/zap.swf" />
+			<image type="image" id="map" url="assets/games/smashing/sections/games/superreaderchallenge/images/lineart/map.swf" />
+			<image type="image" id="queen" url="assets/games/smashing/sections/games/superreaderchallenge/images/lineart/queen.swf" />
+			<image type="image" id="cat" url="assets/games/smashing/sections/games/superreaderchallenge/images/lineart/cat.swf" />
+			<image type="image" id="hat" url="assets/games/smashing/sections/games/superreaderchallenge/images/lineart/wolf.swf" />
+			<image type="image" id="web" url="assets/games/smashing/sections/games/superreaderchallenge/images/lineart/spider.swf" />
+			<image type="image" id="yell" url="assets/games/smashing/sections/games/superreaderchallenge/images/lineart/yell.swf" />
+			<image type="image" id="bell" url="assets/games/smashing/sections/games/superreaderchallenge/images/lineart/bell.swf" />
+		</images>
+	</gameElements>
+	
+</game>
