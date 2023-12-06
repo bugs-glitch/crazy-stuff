@@ -1,0 +1,22 @@
+<game id="alphabricks" hasSponsorBar="false">
+	<title><![CDATA[SUPER WHY! . GAMES . ALPHA BRICKS | PBS KIDS]]></title>
+	<swf url="assets/games/smashing/sections/games/alphabricks/alphabricks.swf" />
+	
+	<libraries>
+		<library id="futuratdemeduembedded" url="assets/games/smashing/libraries/futuratdemeduembedded.swf" type="font" name="FuturaTDemEduEmbedded" font="FuturaTDemEduEmbeddedFont"/>
+
+	</libraries>
+	
+	<assets>
+		<voiceovers id="voiceovers" isGroup="true">
+			<!--  don't need level select audio for standalone mode
+			<audio id="easy" type="audio" url="assets/games/smashing/sections//games/alphabricks/audio/intro/easy.mp3" />
+			<audio id="medium" type="audio" url="assets/games/smashing/sections//games/alphabricks/audio/intro/medium.mp3" />
+			<audio id="hard" type="audio" url="assets/games/smashing/sections//games/alphabricks/audio/intro/hard.mp3" />
+			-->
+			<audio id="start" type="audio" url="assets/games/smashing/sections/games/alphabricks/audio/intro/play.mp3" />
+		</voiceovers>
+		
+
+	</assets>
+</game>
