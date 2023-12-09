@@ -1,0 +1,350 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<!-- #bbinclude "header.pl" #pagetitle#="PBS Kids: Arthur: Games Index" #section#="games" -->
+<html>
+<head>
+	<title>Arthur . Games . Games Index | PBS Kids</title>
+
+	<link rel="stylesheet" type="text/css" href="../arthur.css"> 
+
+	<link rel="stylesheet" type="text/css" href="../print.css" media="print">
+	<link rel="stylesheet" type="text/css" href="../games.css">
+	
+<script language="JavaScript">
+
+<!-- Image Rollover Script
+
+// intialize array variables to hold rollover state
+var current_over_array		= new Array("","","");
+var last_over_array			= new Array("","","");
+var stay_on_array			= new Array("games","","");
+
+// construct new rollover_item
+function rollover_item (img_name,whichSection,width,height) {
+	if (document.images) {
+		// set up image src's
+		if (whichSection == 0) {
+			img_prefix = "/pbskids2008/arthur/images/lnav/nav_" + img_name;
+		} else {
+			if (whichSection == 1) {
+				img_prefix = "/pbskids2008/arthur/games/images/subnav/" + img_name;
+			} else {
+				img_prefix = "/pbskids2008/arthur/games/images/rollovers/" + img_name;
+			}
+		}	
+		if (img_name && img_name == stay_on_array[whichSection]) {
+			this.img_off = new Image (width,height);
+			this.img_off.src = img_prefix + "_hit.gif";
+			this.img_on = new Image (width,height);
+			this.img_on.src = img_prefix + "_hit.gif";
+		} else if (img_name && img_name != stay_on_array[whichSection]){
+			this.img_off = new Image (width,height);
+			this.img_off.src = img_prefix + ".gif";
+			this.img_on = new Image (width,height);
+			this.img_on.src = img_prefix + "_roll.gif";
+		}
+
+		// set whichSection
+		this.whichSection = whichSection;
+	}
+}
+
+// new rollover_item
+function new_rollover_item (img_name,whichSection,width,height) {
+    rollover_item [img_name] = new rollover_item (img_name,whichSection,width,height);
+}
+
+// rollover image
+function rollover_mouseover (itemID) {
+	// get theSection
+	var theSection = rollover_item[itemID].whichSection;
+	
+	// rolled over image, swap in rollover state
+    current_over_array[theSection] = itemID;
+    if (current_over_array[theSection] != last_over_array[theSection]) {
+		document [current_over_array[theSection]].src = rollover_item [current_over_array[theSection]].img_on.src;
+		if (last_over_array[theSection] != "") {
+		        document.images [last_over_array[theSection]].src = rollover_item [last_over_array[theSection]].img_off.src;
+		}
+		last_over_array[theSection] = current_over_array[theSection];
+    }
+}
+
+// roll off image
+function rollover_mouseout (itemID) {
+	// get theSection
+	var theSection = rollover_item[itemID].whichSection;
+
+	// rolled off image, swap out rollover state
+	if (current_over_array[theSection] != "") {
+	    document.images [current_over_array[theSection]].src = rollover_item [current_over_array[theSection]].img_off.src;
+	}
+	current_over_array[theSection] = "";
+	last_over_array[theSection] = "";
+}
+
+new_rollover_item ("home",0,72,68);
+new_rollover_item ("friends",0,72,74);
+new_rollover_item ("games",0,72,67);
+new_rollover_item ("print",0,72,68);
+new_rollover_item ("find",0,72,66);
+new_rollover_item ("parentsteachers",0,72,42);
+//-->
+
+</script>
+
+</head>
+
+<body style="background-image: url(../images/backgrounds/games_background.gif); background-repeat: repeat-y;">
+	
+<!-- PBS Global Kids include -->
+<script type="text/javascript">
+var GA_env = "UA-4005067-1,UA-4005001-1,UA-3966576-1,UA-3999950-1,ET-3999950-2";
+
+var GA_jshost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script src="../../js/ga-494126a3.js" type="text/javascript"></script>
+
+
+
+<table cellspacing="0" cellpadding="0" border="0" width="730">
+<tr>
+
+	<td width="87" align="left" valign="top" class="noprint">
+		<table cellspacing="0" cellpadding="0" border="0" width="87">
+		<tr>
+			<td width="87" height="1"><a href="#skipnav"><img src="../images/1px.gif" width="1" height="1" alt="Skip Navigation" border="0"></a><a name="top"></a></td>
+		</tr>
+		<tr>
+			<td width="87" height="71" align="center"><a href="/pbskidsgo/"><img src="../images/lnav/nav_pbskids.gif" width="72" height="71" border="0" alt="PBS Kids"></a></td>
+		</tr>
+
+		<tr>
+			<td width="87" height="68" align="center"><a href="../index.html" onmouseover="if (document.images) {rollover_mouseover ('home')}; window.status = 'Home'; return true;" onmouseout="if (document.images) {rollover_mouseout ('home')}; window.status = ''; return true;"><img src="../images/lnav/nav_home.gif" width="72" height="68" name="home" border="0" alt="Home"></a></td>
+		</tr>
+	
+		<tr>
+			<td width="87" height="74" align="center"><a href="../friends/index.html" onmouseover="if (document.images) {rollover_mouseover ('friends')}; window.status = 'Friends'; return true;" onmouseout="if (document.images) {rollover_mouseout ('friends')}; window.status = ''; return true;"><img src="../images/lnav/nav_friends.gif" width="72" height="74" name="friends" border="0" alt="Friends"></a></td>
+		</tr>
+	
+		<tr>
+			<td width="87" height="67" align="center"><a href="index.html"><img src="../images/lnav/nav_games_hit.gif" width="72" height="67" name="games" border="0" alt="Games"></a></td>
+		</tr>
+	
+		<tr>
+			<td width="87" height="68" align="center"><a href="../print/index.html" onmouseover="if (document.images) {rollover_mouseover ('print')}; window.status = 'Print'; return true;" onmouseout="if (document.images) {rollover_mouseout ('print')}; window.status = ''; return true;"><img src="../images/lnav/nav_print.gif" width="72" height="68" name="print" border="0" alt="Print"></a></td>
+		</tr>
+	
+		<tr>
+			<td width="87" height="66" align="center"><a href="../find/index.html" onmouseover="if (document.images) {rollover_mouseover ('find')}; window.status = 'Find'; return true;" onmouseout="if (document.images) {rollover_mouseout ('find')}; window.status = ''; return true;"><img src="../images/lnav/nav_find.gif" width="72" height="66" name="find" border="0" alt="Find"></a></td>
+		</tr>
+	
+		<tr>
+			<td width="87" height="22" align="center"><a href="/pbskids2008/arthur/parentsteachers/index.html" onmouseover="if (document.images) {rollover_mouseover ('parentsteachers')}; window.status = 'Parents & Teachers'; return true;" onmouseout="if (document.images) {rollover_mouseout ('parentsteachers')}; window.status = ''; return true;"><img src="../images/lnav/nav_parentsteachers.gif" width="72" height="42" name="parentsteachers" border="0" alt="Parents &amp; Teachers"></a></td>
+		</tr>
+	
+		<tr>
+			<td width="87" height="1"><a name="skipnav"><img src="../images/1px.gif" width="1" height="1" alt=""></a></td>
+		</tr>
+		</table>
+	</td>
+
+	<td width="643" align="left" valign="top">
+<!-- end bbinclude -->
+
+<!-- HALLOWEEN -->
+<!--
+		<table cellspacing="0" cellpadding="0" border="0" width="643">
+			<tr>
+				<td width="264" height="103" align="left" valign="top"><a href="index.html"><img src="/pbskids2008/arthur/games/images/games_header.gif" width="264" height="103" border="0" alt="Games"></a></td>
+				<td width="379" height="103" align="right" valign="top"><a href="/pbskids2008/arthur/halloween/"><img src="images/halloween_index_games.gif" width="379" height="103" border="0" alt=""></a></td>
+			</tr>
+		</table>
+-->
+
+<!-- HOLIDAY-->
+
+		<table cellspacing="0" cellpadding="0" border="0" width="643">
+			<tr>
+				<td width="264" height="103" align="left" valign="top"><a href="index.html"><img src="images/games_header.gif" width="264" height="103" border="0" alt="Games"></a></td>
+				<td width="379" height="103" align="right" valign="top"><a href="../holiday/index.htm"><img src="images/holiday_index_games.gif" width="379" height="103" border="0" alt="Happy Holidays!"></a></td>
+			</tr>
+		</table>
+
+
+<!-- REST OF YEAR-->
+<!--
+		<table cellspacing="0" cellpadding="0" border="0" width="643">
+			<tr>
+				<td width="264" height="103"><a href="index.html"><img src="/pbskids2008/arthur/games/images/games_header.gif" width="264" height="103" border="0" alt="Games"></a></td>
+				<td width="379" height="103"><img src="images/window_top_ext.gif" width="379" height="103" border="0" alt=""></td>
+			</tr>
+		</table>
+
+ -->		
+		<table border="0" width="643" cellspacing="0" cellpadding="0">
+		<tr>
+			<td>
+				<table border="0" width="643" cellspacing="0" cellpadding="0" align="left">
+				<tr>
+					<td width="25" bgcolor="#66CCCC"><img src="../images/1px.gif" width="25" alt=""></td>
+					<td width="93" align="center" valign="top" bgcolor="#66CCCC">
+						<a href="groovygarden/index.htm"><img src="images/groovygarden_blue.gif" width="93" height="92" border="0" alt="Groovy Garden"><br>Groovy Garden</a>
+					</td>
+					<td width="25" bgcolor="#66CCCC"><img src="../images/1px.gif" width="25" alt=""></td>
+					<td width="93" align="center" valign="top" bgcolor="#66CCCC">
+						<a href="moviemaker/index.htm"><img src="images/moviemaker_blue.gif" width="93" height="92" border="0" alt="Movie Maker"><br>Movie Maker</a>
+					</td>
+					<td width="25" bgcolor="#66CCCC"><img src="../images/1px.gif" width="25" alt=""></td>
+					<td width="93" align="center" valign="top" bgcolor="#66CCCC">
+						<a href="factsopinions/index.htm"><img src="images/factsopinions_blue.gif" width="93" height="92" border="0" alt="Facts and Opinions"><br>Facts and Opinions</a>
+					</td>
+					<td width="25" bgcolor="#66CCCC"><img src="../images/1px.gif" width="25" alt=""></td>
+					<td width="93" align="center" valign="top" bgcolor="#66CCCC">
+						<a href="globalgizmo/index.htm"><img src="images/globalgizmo_blue.gif" width="93" height="92" border="0" alt="Global Gizmo"><br>Global Gizmo</a>
+					</td>
+					<td width="25" bgcolor="#66CCCC"><img src="../images/1px.gif" width="25" alt=""></td>
+					<td width="93" align="center" valign="top" bgcolor="#66CCCC">
+						<a href="lunchomatic/index.htm"><img src="images/lunchomatic_blue.gif" width="93" height="92" border="0" alt="Lunch-o-Matic"><br>Lunch-o-Matic</a>
+					</td>
+				
+					<td width="25" bgcolor="#66CCCC"><img src="../images/1px.gif" width="25" alt=""></td>
+					<td width="6" bgcolor="#FFFFFF"><img src="../images/1px.gif" width="6" alt=""></td>
+				</tr>
+				<tr>	
+					<td width="25" bgcolor="#66CCCC"><img src="../images/1px.gif" width="25" alt=""></td>
+					<td width="93" bgcolor="#66CCCC" align="center" valign="top">
+						<a href="supermarket/index.htm"><img src="images/supermarket_blue.gif" width="93" height="92" border="0" alt="Supermarket Adventure"><br>Supermarket Adventure</a>
+					</td>
+					<td width="25" bgcolor="#66CCCC"><img src="../images/1px.gif" width="25" alt=""></td>
+					<td width="93" align="center" valign="top" bgcolor="#66CCCC">
+						<a href="elwoodcity/index.htm"><img src="images/elwoodcity_blue.gif" width="93" height="92" border="0" alt="Elwood City Map"><br>Elwood City Map</a>
+					</td>
+					<td width="25" bgcolor="#66CCCC"><img src="../images/1px.gif" width="25" alt=""></td>
+					<td width="93" align="center" valign="top" bgcolor="#66CCCC">
+<!-- REST OF YEAR -->
+
+						<a href="crankitup/index.html"><img src="images/crankitup_blue.gif" width="93" height="92" border="0" alt="Crank It Up"><br>Crank It Up!</a>
+
+<!-- HALLOWEEN -->					
+<!--
+					<a href="crankitup/index_halloween.html"><img src="images/crankitup_blue_halloween.gif" width="93" height="92" border="0" alt="Crank It Up"><br>Crank It Up!</a>
+-->
+					</td>
+					<td width="25" bgcolor="#66CCCC"><img src="../images/1px.gif" width="25" alt=""></td>
+					<td width="93" align="center" valign="top" bgcolor="#66CCCC">
+						<a href="superactionchallenge/index.html"><img src="images/superactionchallenge_blue.gif" width="93" height="92" border="0" alt="Super Action Challenge"><br>Super Action Challenge</a>
+					</td>
+					<td width="25" bgcolor="#66CCCC"><img src="../images/1px.gif" width="25" alt=""></td>
+					<td width="93" align="center" valign="top" bgcolor="#66CCCC">
+						<a href="artgallery/index.html"><img src="images/art_gallery_blue.gif" width="93" height="92" border="0" alt="Art Gallery"><br>Art Gallery</a>
+					</td>
+				
+					<td width="25" bgcolor="#66CCCC"><img src="../images/1px.gif" width="25" alt=""></td>
+					<td width="6" bgcolor="#FFFFFF"><img src="../images/1px.gif" width="6" alt=""></td>
+				</tr>
+				<tr>
+					<td width="25" bgcolor="#66CCCC"><img src="../images/1px.gif" width="25" alt=""></td>
+					<td width="93" align="center" valign="top" bgcolor="#66CCCC">
+						<a href="aboutface/index.html"><img src="images/aboutface_blue.gif" width="93" height="92" border="0" alt="About Face"><br>About Face</a>
+					</td>
+					<td width="25" bgcolor="#66CCCC"><img src="../images/1px.gif" width="25" alt=""></td>
+					<td width="93" align="center" valign="top" bgcolor="#66CCCC">
+					<!-- HOLIDAY-->
+
+						<a href="musicbox/index_holiday.html"><img src="images/music_box_blue_holiday.gif" width="93" height="92" border="0" alt="Music Box"><br>Music Box</a>
+
+
+					<!-- REST OF YEAR-->
+<!-- 					
+					<a href="musicbox/index.html"><img src="images/music_box_blue.gif" width="93" height="92" border="0" alt="Music Box"><br>Music Box</a>
+ -->
+					</td>
+					<td width="25" bgcolor="#66CCCC"><img src="../images/1px.gif" width="25" alt=""></td>
+					<td width="93" align="center" valign="top" bgcolor="#66CCCC">
+					   <a href="virtualgoose/index.html"><img src="images/virtualgoose_blue.gif" width="93" height="92" border="0" alt="Virtual Goose"><br>Virtual Goose</a>
+					</td>
+
+					<td width="25" bgcolor="#66CCCC"><img src="../images/1px.gif" width="25" alt=""></td>
+					<td width="93" align="center" valign="top" bgcolor="#66CCCC">
+					   <a href="alien/index.html"><img src="images/alien_blue.gif" width="93" height="92" border="0" alt="Alien: Assembly Required"><br>Alien: Assembly Required</a>
+					</td>
+					
+					<td width="25" bgcolor="#66CCCC" align="center" valign="top"><img src="../images/1px.gif" width="25" alt=""></td>
+					<td bgcolor="#66CCCC" valign="bottom" align="right" width="129" height="145" colspan="2"><a href="index2.html"><img src="images/teasers/more_games.gif" width="129" height="135" border="0" align="right" alt="More Stuff In Games" hspace="0" vspace="0"></a></td>
+					<td width="6" height="145"><img src="images/games_teaser_right.gif" width="6" height="145" alt=""></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table border="0" width="643" cellspacing="0" cellpadding="0" align="left">
+				<tr>
+					<td width="508" height="6" bgcolor="#FFFFFF"><img src="../images/1px.gif" width="508" height="6" border="0" alt=""></td>
+					<td width="135" height="6"><img src="images/games_teaser_bottom.gif" width="135" height="6" border="0" alt=""></td>
+				</tr>
+				</table>
+			</td>
+		</tr>
+		</table>
+		<br clear="all">
+<!-- #bbinclude "footer.pl" #section#="games" -->
+		<table cellspacing="0" cellpadding="0" border="0" width="643" class="footer">
+		<tr>
+			<td width="15" height="30"><img src="../images/1px.gif" width="15" height="30" alt=""></td>
+			<td width="20" height="30"><img src="../images/1px.gif" width="20" height="30" alt=""></td>
+			<td width="573" height="30"><img src="../images/1px.gif" width="573" height="30" alt=""></td>
+			<td width="20" height="30"><img src="../images/1px.gif" width="20" height="30" alt=""></td>
+			<td width="15" height="30"><img src="../images/1px.gif" width="15" height="30" alt=""></td>
+		</tr>
+		<tr>
+			<td width="15"><img src="../images/1px.gif" width="15" height="1" alt=""></td>
+			<td width="20" height="127"><img src="../images/footers/games_left.gif" width="20" height="127" alt=""></td>
+			<td width="573" bgcolor="#CC99CC" align="center">
+				<table cellspacing="0" cellpadding="0" border="0" width="573" bgcolor="#CC99CC">
+				<tr>
+					<td align="center" height="5"><img src="../images/1px.gif" height="5" border="0" alt=""></td>
+				</tr>
+				<tr>
+					<td align="center"><a href="../index.html">Home</a> / <a href="../friends/index.html">Friends</a> / <a href="index.html">Games</a> / <a href="../print/index.html">Print</a> / <a href="../find/index.html">Find</a> / <a href="/pbskids2008/arthur/parentsteachers/index.html">Parents &amp; Teachers</a> / <a href="/pbskids2008/arthur/parentsteachers/help/">Need Help?</a></td>
+				</tr>
+				<tr>
+					<td align="center" height="5"><img src="../images/1px.gif" height="5" border="0" alt=""></td>
+				</tr>
+				<tr>
+					<td align="center"><a href="/buster/">Visit POSTCARDS FROM BUSTER</a></td>
+				</tr>
+				<tr>
+					<td align="center" height="20"><img src="../images/1px.gif" height="20" border="0" alt=""></td>
+				</tr>
+				<tr>
+					<td align="center">
+						<span class="copyright">All characters and underlying materials (including artwork) &copy; Marc Brown.<br>
+						&quot;Arthur&quot; and &quot;D.W.&quot; and all of the ARTHUR characters are trademarks of Marc Brown.<br>
+						<a href="/pbskids2008/arthur/parentsteachers/site/copyright.html">&copy; 2008 WGBH</a></span> 
+					</td>
+				</tr>
+				<tr>
+					<td align="center"><img src="../images/1px.gif" height="5" alt=""></td>
+				</tr>
+				</table>
+			</td>
+			<td width="20" height="127"><img src="../images/footers/games_right.gif" width="20" height="127" alt=""></td>
+			<td width="15"><img src="../images/1px.gif" width="15" height="1" alt=""></td>
+		</tr>
+		<tr>
+			<td width="15" height="10"><img src="../images/1px.gif" width="15" height="10" alt=""></td>
+			<td width="20" height="10"><img src="../images/1px.gif" width="20" height="10" alt=""></td>
+			<td width="573" height="10"><img src="../images/1px.gif" width="573" height="10" alt=""></td>
+			<td width="20" height="10"><img src="../images/1px.gif" width="20" height="10" alt=""></td>
+			<td width="15" height="10"><img src="../images/1px.gif" width="15" height="10" alt=""></td>
+		</tr>
+
+		</table>
+	</td>
+</tr>
+</table>
+</body>
+</html>
+<!-- end bbinclude -->
