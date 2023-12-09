@@ -1,0 +1,14 @@
+	.gizmo-more {
+		background:transparent url(../images/gizmo-all.gif) no-repeat top left;
+		height: 124px;
+		width: 595px;
+		overflow: hidden;
+		margin: 0; 
+		padding: 0;
+	}
+	
+	.gizmo-more p {
+		margin: 65px 0 0 150px; 
+		padding: 0;	
+		color: #3A5307;
+	}
