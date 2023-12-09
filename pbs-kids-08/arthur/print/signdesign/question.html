@@ -1,0 +1,325 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<!-- #bbinclude "header.pl" #section#="print" #pagetitle#="PBS Kids: Arthur: Sign Design" -->
+<html>
+<head>
+	<title>Arthur . Print . Sign Design | PBS Kids</title>
+
+	<link rel="stylesheet" type="text/css" href="../../arthur.css"> 
+
+	<link rel="stylesheet" type="text/css" href="../../print.css" media="print">
+	
+<script language="JavaScript">
+
+<!-- Image Rollover Script
+
+// intialize array variables to hold rollover state
+var current_over_array		= new Array("","","");
+var last_over_array			= new Array("","","");
+var stay_on_array			= new Array("print","","");
+
+// construct new rollover_item
+function rollover_item (img_name,whichSection,width,height) {
+	if (document.images) {
+		// set up image src's
+		if (whichSection == 0) {
+			img_prefix = "/pbskids2008/arthur/images/lnav/nav_" + img_name;
+		} else {
+			if (whichSection == 1) {
+				img_prefix = "/pbskids2008/arthur/print/images/subnav/" + img_name;
+			} else {
+				img_prefix = "/pbskids2008/arthur/print/images/rollovers/" + img_name;
+			}
+		}	
+		if (img_name && img_name == stay_on_array[whichSection]) {
+			this.img_off = new Image (width,height);
+			this.img_off.src = img_prefix + "_hit.gif";
+			this.img_on = new Image (width,height);
+			this.img_on.src = img_prefix + "_hit.gif";
+		} else if (img_name && img_name != stay_on_array[whichSection]){
+			this.img_off = new Image (width,height);
+			this.img_off.src = img_prefix + ".gif";
+			this.img_on = new Image (width,height);
+			this.img_on.src = img_prefix + "_roll.gif";
+		}
+
+		// set whichSection
+		this.whichSection = whichSection;
+	}
+}
+
+// new rollover_item
+function new_rollover_item (img_name,whichSection,width,height) {
+    rollover_item [img_name] = new rollover_item (img_name,whichSection,width,height);
+}
+
+// rollover image
+function rollover_mouseover (itemID) {
+	// get theSection
+	var theSection = rollover_item[itemID].whichSection;
+	
+	// rolled over image, swap in rollover state
+    current_over_array[theSection] = itemID;
+    if (current_over_array[theSection] != last_over_array[theSection]) {
+		document [current_over_array[theSection]].src = rollover_item [current_over_array[theSection]].img_on.src;
+		if (last_over_array[theSection] != "") {
+		        document.images [last_over_array[theSection]].src = rollover_item [last_over_array[theSection]].img_off.src;
+		}
+		last_over_array[theSection] = current_over_array[theSection];
+    }
+}
+
+// roll off image
+function rollover_mouseout (itemID) {
+	// get theSection
+	var theSection = rollover_item[itemID].whichSection;
+
+	// rolled off image, swap out rollover state
+	if (current_over_array[theSection] != "") {
+	    document.images [current_over_array[theSection]].src = rollover_item [current_over_array[theSection]].img_off.src;
+	}
+	current_over_array[theSection] = "";
+	last_over_array[theSection] = "";
+}
+
+new_rollover_item ("home",0,72,68);
+new_rollover_item ("friends",0,72,74);
+new_rollover_item ("games",0,72,67);
+new_rollover_item ("print",0,72,68);
+new_rollover_item ("find",0,72,66);
+new_rollover_item ("parentsteachers",0,72,42);
+//-->
+
+</script>
+
+</head>
+
+<body style="background-image: url(../../images/backgrounds/print_background.gif); background-repeat: repeat-y;">
+	
+<!-- PBS Global Kids include -->
+<script type="text/javascript">
+var GA_env = "UA-4005067-1,UA-4005001-1,UA-3966576-1,UA-3999950-1,ET-3999950-2";
+
+var GA_jshost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script src="../../../js/ga-494126a3.js" type="text/javascript"></script>
+
+
+
+<table cellspacing="0" cellpadding="0" border="0" width="730">
+<tr>
+
+	<td width="87" align="left" valign="top" class="noprint">
+		<table cellspacing="0" cellpadding="0" border="0" width="87">
+		<tr>
+			<td width="87" height="1"><a href="#skipnav"><img src="../../images/1px.gif" width="1" height="1" alt="Skip Navigation" border="0"></a><a name="top"></a></td>
+		</tr>
+		<tr>
+			<td width="87" height="71" align="center"><a href="/pbskidsgo/"><img src="../../images/lnav/nav_pbskids.gif" width="72" height="71" border="0" alt="PBS Kids"></a></td>
+		</tr>
+
+		<tr>
+			<td width="87" height="68" align="center"><a href="../../index.html" onmouseover="if (document.images) {rollover_mouseover ('home')}; window.status = 'Home'; return true;" onmouseout="if (document.images) {rollover_mouseout ('home')}; window.status = ''; return true;"><img src="../../images/lnav/nav_home.gif" width="72" height="68" name="home" border="0" alt="Home"></a></td>
+		</tr>
+	
+		<tr>
+			<td width="87" height="74" align="center"><a href="../../friends/index.html" onmouseover="if (document.images) {rollover_mouseover ('friends')}; window.status = 'Friends'; return true;" onmouseout="if (document.images) {rollover_mouseout ('friends')}; window.status = ''; return true;"><img src="../../images/lnav/nav_friends.gif" width="72" height="74" name="friends" border="0" alt="Friends"></a></td>
+		</tr>
+	
+		<tr>
+			<td width="87" height="67" align="center"><a href="../../games/index.html" onmouseover="if (document.images) {rollover_mouseover ('games')}; window.status = 'Games'; return true;" onmouseout="if (document.images) {rollover_mouseout ('games')}; window.status = ''; return true;"><img src="../../images/lnav/nav_games.gif" width="72" height="67" name="games" border="0" alt="Games"></a></td>
+		</tr>
+	
+		<tr>
+			<td width="87" height="68" align="center"><a href="../index.html"><img src="../../images/lnav/nav_print_hit.gif" width="72" height="68" name="print" border="0" alt="Print"></a></td>
+		</tr>
+	
+		<tr>
+			<td width="87" height="66" align="center"><a href="../../find/index.html" onmouseover="if (document.images) {rollover_mouseover ('find')}; window.status = 'Find'; return true;" onmouseout="if (document.images) {rollover_mouseout ('find')}; window.status = ''; return true;"><img src="../../images/lnav/nav_find.gif" width="72" height="66" name="find" border="0" alt="Find"></a></td>
+		</tr>
+	
+		<tr>
+			<td width="87" height="22" align="center"><a href="/pbskids2008/arthur/parentsteachers/index.html" onmouseover="if (document.images) {rollover_mouseover ('parentsteachers')}; window.status = 'Parents & Teachers'; return true;" onmouseout="if (document.images) {rollover_mouseout ('parentsteachers')}; window.status = ''; return true;"><img src="../../images/lnav/nav_parentsteachers.gif" width="72" height="42" name="parentsteachers" border="0" alt="Parents &amp; Teachers"></a></td>
+		</tr>
+	
+		<tr>
+			<td width="87" height="1"><a name="skipnav"><img src="../../images/1px.gif" width="1" height="1" alt=""></a></td>
+		</tr>
+		</table>
+	</td>
+
+	<td width="643" align="left" valign="top">
+<!-- end bbinclude -->
+
+<!-- #bbinclude "::(includes):print_content_header.incl" #background_color#="#FFFFFF" #corner_image#="window_corner_white.gif" -->
+<!--  -->
+<table cellspacing="0" cellpadding="0" border="0" width="643">
+<!-- background strip -->
+<tr>
+	<td height="1" width="643"><a name="top">&nbsp;</a></td>
+</tr>
+<!-- top of content box -->
+<tr>
+	<td>
+		<table border="0" width="643" cellspacing="0" cellpadding="0" align="center" class="border">
+		<tr>
+			<td width="622" height="6" bgcolor="#FF9999"><img src="../../images/1px.gif" width="1" height="1" alt=""></td>
+			<td rowspan="2" width="21" align="left" valign="top" height="20"><img src="../images/window_corner_white.gif" width="21" height="20" hspace="0" vspace="0" border="0" align="left" alt=""></td>
+		</tr>
+		<tr>
+			<td width="622" height="14" bgcolor="#FFFFFF" align="center"><img src="../../images/1px.gif" width="10" height="14" alt=""></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+<!-- content -->
+<tr>
+	<td bgcolor="#FFFFFF">
+		<table border="0" width="643" cellspacing="0" cellpadding="0">
+		<tr>
+			<td align="center" valign="top" bgcolor="#FFFFFF">
+			<!-- print content starts here -->
+<!-- end bbinclude -->
+
+<table border="0" cellspacing="0" cellpadding="0" width="580">
+<tr>
+	<td colspan="3" align="center"><img src="../../images/1px.gif" width="30" alt=""><a href="question.html"><img src="images/home.gif" alt="Back to Sign Design Home" width="121" height="113" border="0"></a><img src="images/header.gif" alt="Sign Design" width="360" height="113"></td>
+</tr><tr valign="top">
+	<td rowspan="3" valign="top"><img src="images/point.gif" alt="Arthur standing and pointing" width="167" height="342"></td>
+	<td>
+	<h4 style="margin-top:15px;">Practice Signing</h4>
+	
+	<p style="margin:10px 15px 10px 0;">I'll help you learn how to ask a question!</p>
+	
+	<p style="margin:10px 15px 10px 0;">Use the pull-down menus below to make a sentence you want to say. Then hit the submit button to see the signed version of your sentence.</p>
+	</td>
+	<td nowrap="">
+	<div style="margin-top:20px;"><a href="name.html">Sign your name</a></div>
+	<div style="margin-top:5px;">Ask a question</div>
+	<div style="margin-top:5px;"><a href="statement.html">Make a statement</a></div>
+	</td>
+</tr><tr>
+	<td colspan="2" align="center" bgcolor="#CCCC66"><br><img src="../../images/1px.gif" width="1" height="70" alt="" align="left">
+	
+	<form action="/cgi-registry/pbskids2008/arthur/signdesign.pl" method="post">
+	What <select name="noun" style="background-color:#ffc;">
+	<option selected="">sports</option>
+	<option>TV shows</option>
+	<option>movies</option>
+	<option>food</option>
+	<option>drink</option>
+	<option>animals</option>
+	<option>games</option>
+	</select> do you <select name="verb" style="background-color:#ffc;">
+	<option selected="">like</option>
+	<option>want</option>
+	<option>have</option>
+	<option>play</option>
+	</select> ?<br><br>
+	<input type="submit" name="question" value=" submit " style="background-color:#ffc;"></form>
+	
+	<img src="../../images/1px.gif" width="1" height="1" alt=""></td>
+</tr><tr>
+	<td colspan="2"><img src="../../images/1px.gif" width="1" height="50" alt=""></td>
+</tr>
+</table>
+<img src="../../images/1px.gif" width="637" height="1" alt="">
+
+<!-- #bbinclude "::(includes):print_content_footer.incl" #teaser_URL#="../../print/index.html" #teaser_image#="morestufftoprint.gif" #teaser_alt#="More Stuff to Print!" #background_color#="#FFFFFF" -->
+			<!--  -->
+			<!-- print content ends here -->
+			</td>
+			<td width="6" bgcolor="#FF9999" class="border"><img src="../../images/1px.gif" width="6" alt=""></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+<!-- navigation -->
+<tr>
+	<td>
+		<table border="0" width="643" cellspacing="0" cellpadding="0" align="left" class="teaser">
+		<tr>
+			<td bgcolor="#FFFFFF" valign="bottom" align="center" width="508">
+				<br><img src="../../images/1px.gif" width="508" height="15" alt="">
+			</td>
+			<td bgcolor="#FFFFFF" valign="bottom" align="right" width="129" height="145"><a href="../index.html"><img src="../images/teasers/morestufftoprint.gif" width="129" height="135" border="0" align="right" alt="More Stuff to Print!" hspace="0" vspace="0"></a></td>
+			<td width="6" height="145"><img src="../images/teasers/teaser_button_right.gif" width="6" height="145" alt=""></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+<!-- bottom of content box -->
+<tr>
+	<td>
+		<table border="0" width="643" cellspacing="0" cellpadding="0" align="left" class="border">
+		<tr>
+			<td width="508" height="1" bgcolor="#FF9999"><img src="../../images/1px.gif" width="508" height="6" border="0" alt=""></td>
+			<td width="135" height="6"><img src="../images/teasers/teaser_button_bottom.gif" width="135" height="6" border="0" alt=""></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+</table>
+<!-- end bbinclude -->
+<!-- Game Content Table Ends Here -->
+
+
+<!-- #bbinclude "footer.pl" #section#="print" -->
+		<table cellspacing="0" cellpadding="0" border="0" width="643" class="footer">
+		<tr>
+			<td width="15" height="30"><img src="../../images/1px.gif" width="15" height="30" alt=""></td>
+			<td width="20" height="30"><img src="../../images/1px.gif" width="20" height="30" alt=""></td>
+			<td width="573" height="30"><img src="../../images/1px.gif" width="573" height="30" alt=""></td>
+			<td width="20" height="30"><img src="../../images/1px.gif" width="20" height="30" alt=""></td>
+			<td width="15" height="30"><img src="../../images/1px.gif" width="15" height="30" alt=""></td>
+		</tr>
+		<tr>
+			<td width="15"><img src="../../images/1px.gif" width="15" height="1" alt=""></td>
+			<td width="20" height="127"><img src="../../images/footers/print_left.gif" width="20" height="127" alt=""></td>
+			<td width="573" bgcolor="#FFCC33" align="center">
+				<table cellspacing="0" cellpadding="0" border="0" width="573" bgcolor="#FFCC33">
+				<tr>
+					<td align="center" height="5"><img src="../../images/1px.gif" height="5" border="0" alt=""></td>
+				</tr>
+				<tr>
+					<td align="center"><a href="../../index.html">Home</a> / <a href="../../friends/index.html">Friends</a> / <a href="../../games/index.html">Games</a> / <a href="../index.html">Print</a> / <a href="../../find/index.html">Find</a> / <a href="/pbskids2008/arthur/parentsteachers/index.html">Parents &amp; Teachers</a> / <a href="/pbskids2008/arthur/parentsteachers/help/">Need Help?</a></td>
+				</tr>
+				<tr>
+					<td align="center" height="5"><img src="../../images/1px.gif" height="5" border="0" alt=""></td>
+				</tr>
+				<tr>
+					<td align="center"><a href="/buster/">Visit POSTCARDS FROM BUSTER</a></td>
+				</tr>
+				<tr>
+					<td align="center" height="20"><img src="../../images/1px.gif" height="20" border="0" alt=""></td>
+				</tr>
+				<tr>
+					<td align="center">
+						<span class="copyright">All characters and underlying materials (including artwork) &copy; Marc Brown.<br>
+						&quot;Arthur&quot; and &quot;D.W.&quot; and all of the ARTHUR characters are trademarks of Marc Brown.<br>
+						<a href="/pbskids2008/arthur/parentsteachers/site/copyright.html">&copy; 2008 WGBH</a></span> 
+					</td>
+				</tr>
+				<tr>
+					<td align="center"><img src="../../images/1px.gif" height="5" alt=""></td>
+				</tr>
+				</table>
+			</td>
+			<td width="20" height="127"><img src="../../images/footers/print_right.gif" width="20" height="127" alt=""></td>
+			<td width="15"><img src="../../images/1px.gif" width="15" height="1" alt=""></td>
+		</tr>
+		<tr>
+			<td width="15" height="10"><img src="../../images/1px.gif" width="15" height="10" alt=""></td>
+			<td width="20" height="10"><img src="../../images/1px.gif" width="20" height="10" alt=""></td>
+			<td width="573" height="10"><img src="../../images/1px.gif" width="573" height="10" alt=""></td>
+			<td width="20" height="10"><img src="../../images/1px.gif" width="20" height="10" alt=""></td>
+			<td width="15" height="10"><img src="../../images/1px.gif" width="15" height="10" alt=""></td>
+		</tr>
+
+		</table>
+	</td>
+</tr>
+</table>
+</body>
+</html>
+<!-- end bbinclude -->
