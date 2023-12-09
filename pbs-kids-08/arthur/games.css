@@ -1,0 +1,31 @@
+.frame
+{
+	width: 619px;
+	height: 435px;
+}
+
+.game
+{
+	width: 595px;
+	height: 350px;
+}
+
+#supermarket-frame
+{
+	background-color: #718D9F;
+	border: 2px solid #2E3A67;
+}
+
+#supermarket-game { border: 2px solid #2E3A67; }
+
+/* GAMES INDEX PAGES */
+.game-icon
+{
+	float: left;
+	text-align: center;
+	width: 93px;
+	height: 140px;
+	margin: 0 25px 0 0;
+}
+
+.left {margin-left: 36px;}
