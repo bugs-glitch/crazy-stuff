@@ -1,0 +1,358 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<!-- #bbinclude "header.pl" #section#="print" #pagetitle#="PBS Kids: Arthur: Masks"-->
+<html>
+<head>
+	<title>Arthur . Print . Masks | PBS Kids</title>
+
+	<link rel="stylesheet" type="text/css" href="../../arthur.css"> 
+
+	<link rel="stylesheet" type="text/css" href="../../print.css" media="print">
+	
+<script language="JavaScript">
+
+<!-- Image Rollover Script
+
+// intialize array variables to hold rollover state
+var current_over_array		= new Array("","","");
+var last_over_array			= new Array("","","");
+var stay_on_array			= new Array("print","","");
+
+// construct new rollover_item
+function rollover_item (img_name,whichSection,width,height) {
+	if (document.images) {
+		// set up image src's
+		if (whichSection == 0) {
+			img_prefix = "/pbskids2008/arthur/images/lnav/nav_" + img_name;
+		} else {
+			if (whichSection == 1) {
+				img_prefix = "/pbskids2008/arthur/print/images/subnav/" + img_name;
+			} else {
+				img_prefix = "/pbskids2008/arthur/print/images/rollovers/" + img_name;
+			}
+		}	
+		if (img_name && img_name == stay_on_array[whichSection]) {
+			this.img_off = new Image (width,height);
+			this.img_off.src = img_prefix + "_hit.gif";
+			this.img_on = new Image (width,height);
+			this.img_on.src = img_prefix + "_hit.gif";
+		} else if (img_name && img_name != stay_on_array[whichSection]){
+			this.img_off = new Image (width,height);
+			this.img_off.src = img_prefix + ".gif";
+			this.img_on = new Image (width,height);
+			this.img_on.src = img_prefix + "_roll.gif";
+		}
+
+		// set whichSection
+		this.whichSection = whichSection;
+	}
+}
+
+// new rollover_item
+function new_rollover_item (img_name,whichSection,width,height) {
+    rollover_item [img_name] = new rollover_item (img_name,whichSection,width,height);
+}
+
+// rollover image
+function rollover_mouseover (itemID) {
+	// get theSection
+	var theSection = rollover_item[itemID].whichSection;
+	
+	// rolled over image, swap in rollover state
+    current_over_array[theSection] = itemID;
+    if (current_over_array[theSection] != last_over_array[theSection]) {
+		document [current_over_array[theSection]].src = rollover_item [current_over_array[theSection]].img_on.src;
+		if (last_over_array[theSection] != "") {
+		        document.images [last_over_array[theSection]].src = rollover_item [last_over_array[theSection]].img_off.src;
+		}
+		last_over_array[theSection] = current_over_array[theSection];
+    }
+}
+
+// roll off image
+function rollover_mouseout (itemID) {
+	// get theSection
+	var theSection = rollover_item[itemID].whichSection;
+
+	// rolled off image, swap out rollover state
+	if (current_over_array[theSection] != "") {
+	    document.images [current_over_array[theSection]].src = rollover_item [current_over_array[theSection]].img_off.src;
+	}
+	current_over_array[theSection] = "";
+	last_over_array[theSection] = "";
+}
+
+new_rollover_item ("home",0,72,68);
+new_rollover_item ("friends",0,72,74);
+new_rollover_item ("games",0,72,67);
+new_rollover_item ("print",0,72,68);
+new_rollover_item ("find",0,72,66);
+new_rollover_item ("parentsteachers",0,72,42);
+//-->
+
+<!-- Playmaker Nav Rollover Items
+
+// Playmaker Nav rollover items
+new_rollover_item ("script",1,66,47);
+new_rollover_item ("props",1,72,47);
+new_rollover_item ("masks",1,77,47);
+new_rollover_item ("costumes",1,119,47);
+new_rollover_item ("tips",1,71,47);
+
+//-->
+	
+</script>
+
+</head>
+
+<body style="background-image: url(../../images/backgrounds/print_background.gif); background-repeat: repeat-y;">
+	
+<!-- PBS Global Kids include -->
+<script type="text/javascript">
+var GA_env = "UA-4005067-1,UA-4005001-1,UA-3966576-1,UA-3999950-1,ET-3999950-2";
+
+var GA_jshost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script src="../../../js/ga-494126a3.js" type="text/javascript"></script>
+
+
+
+<table cellspacing="0" cellpadding="0" border="0" width="730">
+<tr>
+
+	<td width="87" align="left" valign="top" class="noprint">
+		<table cellspacing="0" cellpadding="0" border="0" width="87">
+		<tr>
+			<td width="87" height="1"><a href="#skipnav"><img src="../../images/1px.gif" width="1" height="1" alt="Skip Navigation" border="0"></a><a name="top"></a></td>
+		</tr>
+		<tr>
+			<td width="87" height="71" align="center"><a href="/pbskidsgo/"><img src="../../images/lnav/nav_pbskids.gif" width="72" height="71" border="0" alt="PBS Kids"></a></td>
+		</tr>
+
+		<tr>
+			<td width="87" height="68" align="center"><a href="../../index.html" onmouseover="if (document.images) {rollover_mouseover ('home')}; window.status = 'Home'; return true;" onmouseout="if (document.images) {rollover_mouseout ('home')}; window.status = ''; return true;"><img src="../../images/lnav/nav_home.gif" width="72" height="68" name="home" border="0" alt="Home"></a></td>
+		</tr>
+	
+		<tr>
+			<td width="87" height="74" align="center"><a href="../../friends/index.html" onmouseover="if (document.images) {rollover_mouseover ('friends')}; window.status = 'Friends'; return true;" onmouseout="if (document.images) {rollover_mouseout ('friends')}; window.status = ''; return true;"><img src="../../images/lnav/nav_friends.gif" width="72" height="74" name="friends" border="0" alt="Friends"></a></td>
+		</tr>
+	
+		<tr>
+			<td width="87" height="67" align="center"><a href="../../games/index.html" onmouseover="if (document.images) {rollover_mouseover ('games')}; window.status = 'Games'; return true;" onmouseout="if (document.images) {rollover_mouseout ('games')}; window.status = ''; return true;"><img src="../../images/lnav/nav_games.gif" width="72" height="67" name="games" border="0" alt="Games"></a></td>
+		</tr>
+	
+		<tr>
+			<td width="87" height="68" align="center"><a href="../index.html"><img src="../../images/lnav/nav_print_hit.gif" width="72" height="68" name="print" border="0" alt="Print"></a></td>
+		</tr>
+	
+		<tr>
+			<td width="87" height="66" align="center"><a href="../../find/index.html" onmouseover="if (document.images) {rollover_mouseover ('find')}; window.status = 'Find'; return true;" onmouseout="if (document.images) {rollover_mouseout ('find')}; window.status = ''; return true;"><img src="../../images/lnav/nav_find.gif" width="72" height="66" name="find" border="0" alt="Find"></a></td>
+		</tr>
+	
+		<tr>
+			<td width="87" height="22" align="center"><a href="/pbskids2008/arthur/parentsteachers/index.html" onmouseover="if (document.images) {rollover_mouseover ('parentsteachers')}; window.status = 'Parents & Teachers'; return true;" onmouseout="if (document.images) {rollover_mouseout ('parentsteachers')}; window.status = ''; return true;"><img src="../../images/lnav/nav_parentsteachers.gif" width="72" height="42" name="parentsteachers" border="0" alt="Parents &amp; Teachers"></a></td>
+		</tr>
+	
+		<tr>
+			<td width="87" height="1"><a name="skipnav"><img src="../../images/1px.gif" width="1" height="1" alt=""></a></td>
+		</tr>
+		</table>
+	</td>
+
+	<td width="643" align="left" valign="top">
+<!-- end bbinclude -->
+
+<!-- Game Content Table Starts Here -->
+<!-- #bbinclude "::(includes):print_content_header.incl" #background_color#="#FFFFFF" #corner_image#="window_corner_white.gif" -->
+<!--  -->
+<table cellspacing="0" cellpadding="0" border="0" width="643">
+<!-- background strip -->
+<tr>
+	<td height="1" width="643"><a name="top">&nbsp;</a></td>
+</tr>
+<!-- top of content box -->
+<tr>
+	<td>
+		<table border="0" width="643" cellspacing="0" cellpadding="0" align="center" class="border">
+		<tr>
+			<td width="622" height="6" bgcolor="#FF9999"><img src="../../images/1px.gif" width="1" height="1" alt=""></td>
+			<td rowspan="2" width="21" align="left" valign="top" height="20"><img src="../images/window_corner_white.gif" width="21" height="20" hspace="0" vspace="0" border="0" align="left" alt=""></td>
+		</tr>
+		<tr>
+			<td width="622" height="14" bgcolor="#FFFFFF" align="center"><img src="../../images/1px.gif" width="10" height="14" alt=""></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+<!-- content -->
+<tr>
+	<td bgcolor="#FFFFFF">
+		<table border="0" width="643" cellspacing="0" cellpadding="0">
+		<tr>
+			<td align="center" valign="top" bgcolor="#FFFFFF">
+			<!-- print content starts here -->
+<!-- end bbinclude -->
+
+	<map name="mask_map">
+			<area shape="rect" coords="507, 116, 574, 161" alt="Help Button" href="#help">
+			<area shape="rect" coords="441, 625, 520, 707" alt="Link to Fern's Mask" href="fern_mask_b.html">
+			<area shape="rect" coords="314, 657, 439, 753" alt="Link to Grandma Thora's Mask" href="grandma_mask_b.html">
+			<area shape="rect" coords="382, 575, 438, 652" alt="Link to Timmy's Mask" href="timmy_mask_b.html">
+			<area shape="rect" coords="298, 579, 356, 657" alt="Link to Tommy's Mask" href="tommy_mask_b.html">
+			<area shape="POLY" coords="210, 613, 209, 735, 308, 735, 306, 708, 282, 605, 210, 613" alt="Link to Mr. Ratburn's Mask" href="ratburn_mask_b.html">
+			<area shape="rect" coords="113, 625, 199, 749" alt="Link to Mr. Haney's Mask" href="mrhaney_mask_b.html">
+			<area shape="rect" coords="437, 468, 529, 583" alt="Link to Rubella's Mask" href="rubella_mask_b.html">
+			<area shape="rect" coords="315, 451, 414, 559" alt="Link to Prunella's Mask" href="prunella_mask_b.html">
+			<area shape="rect" coords="229, 471, 311, 570" alt="Link to Binky's Mask" href="binky_mask_b.html">
+			<area shape="rect" coords="112, 466, 224, 594" alt="Link to Paige Turner's Mask" href="turner_mask_b.html">
+			<area shape="rect" coords="356, 373, 457, 451" alt="Link to Francine's Mask" href="francine_mask_b.html">
+			<area shape="rect" coords="255, 335, 334, 430" alt="Link to Mrs. Read's Mask" href="mom_mask_b.html">
+			<area shape="rect" coords="186, 369, 254, 452" alt="Link to D.W.'s Mask" href="dw_mask_b.html">
+			<area shape="rect" coords="105, 357, 185, 451" alt="Link to Mr. Read's Mask" href="dad_mask_b.html">
+			<area shape="rect" coords="424, 263, 504, 351" alt="Link to Muffy's Mask" href="muffy_mask_b.html">
+			<area shape="POLY" coords="353, 239, 407, 239, 420, 316, 420, 338, 335, 338, 335, 315, 350, 315, 353, 239" alt="Link to The Brain's Mask" href="brain_mask_b.html">
+			<area shape="rect" coords="263, 228, 346, 308" alt="Link to Baby Kate's Mask" href="baby_kate_mask_b.html">
+			<area shape="rect" coords="187, 231, 260, 334" alt="Link to Buster's Mask" href="buster_mask_b.html">
+			<area shape="rect" coords="95, 245, 186, 311" alt="Link to Sue Ellen's Mask" href="sue_ellen_mask_b.html">
+			<area shape="rect" coords="436, 153, 507, 237" alt="Link to Arthur's Mask" href="arthur_mask_b.html">
+			<area shape="rect" coords="117, 151, 189, 216" alt="Link to Pal's Mask" href="pal_mask_b.html">
+		</map>
+	
+	
+		<div align="center">
+		<table align="center" cellpadding="0" cellspacing="0" border="0" width="637">
+			<tr>
+				<td valign="top" align="center" colspan="3"><img src="images/masks.gif" alt="List of Masks (text links below)" width="637" height="768" usemap="#mask_map" border="0" hspace="0" vspace="0"><p>&nbsp;</p></td>
+			</tr>
+			<tr>
+				<td><img src="../../images/1px.gif" width="100" alt=""></td>
+				<td>
+					<p align="center"><a href="arthur_mask_b.html">Arthur</a> | <a href="baby_kate_mask_b.html">Baby Kate</a> 
+					| <a href="binky_mask_b.html">Binky</a> | <a href="brain_mask_b.html">The Brain</a> 
+					| <a href="buster_mask_b.html">Buster</a> | <a href="dw_mask_b.html">D.W.</a> 
+					| <a href="fern_mask_b.html">Fern</a> | <a href="francine_mask_b.html">Francine</a> 
+					| <a href="grandma_mask_b.html">Grandma Thora</a> | <a href="mrhaney_mask_b.html">Mr. Haney</a> 
+					| <a href="muffy_mask_b.html">Muffy</a> | <a href="pal_mask_b.html">Pal</a> 
+					| <a href="prunella_mask_b.html">Prunella</a> | <a href="ratburn_mask_b.html">Mr. Ratburn</a> 
+					| <a href="dad_mask_b.html">Mr. Read</a> | <a href="mom_mask_b.html">Mrs. Read</a> 
+					| <a href="rubella_mask_b.html">Rubella</a> | <a href="sue_ellen_mask_b.html">Sue Ellen</a> 
+					| <a href="timmy_mask_b.html">Timmy Tibble</a> | <a href="tommy_mask_b.html">Tommy Tibble</a> 
+					| <a href="turner_mask_b.html">Paige Turner</a> 
+					</p>
+					<p><img src="../../images/1px.gif" width="437" height="1" alt=""></p>
+				</td>
+				<td><img src="../../images/1px.gif" width="100" alt=""></td>
+			</tr>
+			<tr>
+				<td><img src="../../images/1px.gif" width="100" alt=""></td>
+				<td valign="top">
+					<p><b><a name="help">Mask Help:</a></b></p>
+					<p>Choose the mask you want to print. Print the mask, then color it in, and stick it onto a big piece of cardboard from the side of a cereal box.  Ask a grown-up to help cut out the mask and attach it to a string or a stick.  Then you can really look like me and my friends!</p>
+					<p>If you need <b>smaller masks</b>, <a href="index_small.html">click here</a>.</p>
+					<p>Want to put on a real play using ARTHUR masks? Visit <a href="../playmaker/index.html">Play-Maker</a>.</p>
+				</td>
+				<td><img src="../../images/1px.gif" width="100" alt=""></td>
+			</tr>
+		</table>
+		</div>
+		
+
+
+<!-- #bbinclude "::(includes):print_content_footer.incl" #teaser_URL#="../../print/index.html" #teaser_image#="morestufftoprint.gif" #teaser_alt#="More Stuff To Print" #background_color#="#FFFFFF" -->
+			<!--  -->
+			<!-- print content ends here -->
+			</td>
+			<td width="6" bgcolor="#FF9999" class="border"><img src="../../images/1px.gif" width="6" alt=""></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+<!-- navigation -->
+<tr>
+	<td>
+		<table border="0" width="643" cellspacing="0" cellpadding="0" align="left" class="teaser">
+		<tr>
+			<td bgcolor="#FFFFFF" valign="bottom" align="center" width="508">
+				<br><img src="../../images/1px.gif" width="508" height="15" alt="">
+			</td>
+			<td bgcolor="#FFFFFF" valign="bottom" align="right" width="129" height="145"><a href="../index.html"><img src="../images/teasers/morestufftoprint.gif" width="129" height="135" border="0" align="right" alt="More Stuff To Print" hspace="0" vspace="0"></a></td>
+			<td width="6" height="145"><img src="../images/teasers/teaser_button_right.gif" width="6" height="145" alt=""></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+<!-- bottom of content box -->
+<tr>
+	<td>
+		<table border="0" width="643" cellspacing="0" cellpadding="0" align="left" class="border">
+		<tr>
+			<td width="508" height="1" bgcolor="#FF9999"><img src="../../images/1px.gif" width="508" height="6" border="0" alt=""></td>
+			<td width="135" height="6"><img src="../images/teasers/teaser_button_bottom.gif" width="135" height="6" border="0" alt=""></td>
+		</tr>
+		</table>
+	</td>
+</tr>
+</table>
+<!-- end bbinclude -->
+<!-- Game Content Table Ends Here -->
+
+
+<!-- #bbinclude "footer.pl" #section#="print" -->
+		<table cellspacing="0" cellpadding="0" border="0" width="643" class="footer">
+		<tr>
+			<td width="15" height="30"><img src="../../images/1px.gif" width="15" height="30" alt=""></td>
+			<td width="20" height="30"><img src="../../images/1px.gif" width="20" height="30" alt=""></td>
+			<td width="573" height="30"><img src="../../images/1px.gif" width="573" height="30" alt=""></td>
+			<td width="20" height="30"><img src="../../images/1px.gif" width="20" height="30" alt=""></td>
+			<td width="15" height="30"><img src="../../images/1px.gif" width="15" height="30" alt=""></td>
+		</tr>
+		<tr>
+			<td width="15"><img src="../../images/1px.gif" width="15" height="1" alt=""></td>
+			<td width="20" height="127"><img src="../../images/footers/print_left.gif" width="20" height="127" alt=""></td>
+			<td width="573" bgcolor="#FFCC33" align="center">
+				<table cellspacing="0" cellpadding="0" border="0" width="573" bgcolor="#FFCC33">
+				<tr>
+					<td align="center" height="5"><img src="../../images/1px.gif" height="5" border="0" alt=""></td>
+				</tr>
+				<tr>
+					<td align="center"><a href="../../index.html">Home</a> / <a href="../../friends/index.html">Friends</a> / <a href="../../games/index.html">Games</a> / <a href="../index.html">Print</a> / <a href="../../find/index.html">Find</a> / <a href="/pbskids2008/arthur/parentsteachers/index.html">Parents &amp; Teachers</a> / <a href="/pbskids2008/arthur/parentsteachers/help/">Need Help?</a></td>
+				</tr>
+				<tr>
+					<td align="center" height="5"><img src="../../images/1px.gif" height="5" border="0" alt=""></td>
+				</tr>
+				<tr>
+					<td align="center"><a href="/buster/">Visit POSTCARDS FROM BUSTER</a></td>
+				</tr>
+				<tr>
+					<td align="center" height="20"><img src="../../images/1px.gif" height="20" border="0" alt=""></td>
+				</tr>
+				<tr>
+					<td align="center">
+						<span class="copyright">All characters and underlying materials (including artwork) &copy; Marc Brown.<br>
+						&quot;Arthur&quot; and &quot;D.W.&quot; and all of the ARTHUR characters are trademarks of Marc Brown.<br>
+						<a href="/pbskids2008/arthur/parentsteachers/site/copyright.html">&copy; 2008 WGBH</a></span> 
+					</td>
+				</tr>
+				<tr>
+					<td align="center"><img src="../../images/1px.gif" height="5" alt=""></td>
+				</tr>
+				</table>
+			</td>
+			<td width="20" height="127"><img src="../../images/footers/print_right.gif" width="20" height="127" alt=""></td>
+			<td width="15"><img src="../../images/1px.gif" width="15" height="1" alt=""></td>
+		</tr>
+		<tr>
+			<td width="15" height="10"><img src="../../images/1px.gif" width="15" height="10" alt=""></td>
+			<td width="20" height="10"><img src="../../images/1px.gif" width="20" height="10" alt=""></td>
+			<td width="573" height="10"><img src="../../images/1px.gif" width="573" height="10" alt=""></td>
+			<td width="20" height="10"><img src="../../images/1px.gif" width="20" height="10" alt=""></td>
+			<td width="15" height="10"><img src="../../images/1px.gif" width="15" height="10" alt=""></td>
+		</tr>
+
+		</table>
+	</td>
+</tr>
+</table>
+</body>
+</html>
+<!-- end bbinclude -->
