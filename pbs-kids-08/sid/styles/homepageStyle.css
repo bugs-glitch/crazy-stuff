@@ -1,0 +1,118 @@
+body {
+        background-image: url(../media/images/staticFooterBackground.gif);
+        background-repeat: repeat;
+        font-family: Arial; 
+}
+.sponsors {
+        position: relative;
+        width: 985px;
+        height: 156px;
+        margin: 20px 0 20px 0;
+        color: #453f95;
+        font-size: 9pt;
+        font-family: Arial;
+}
+.sponsorsMini{
+        position: absolute;
+        background-image: url(../media/images/funderBarLargeBackground2.gif);
+        background-repeat: repeat-x;
+        width: 985px;
+        height: 100px;
+        text-align: center;
+        visibility: hidden;
+}
+.sponsorsFull{
+        position: relative;
+        background-image: url(../media/images/funderBarLargeBackground2.gif);
+        background-repeat: repeat-x;
+        width: 985px;
+        height: 156px;
+}
+
+.funder {
+        float: left;
+        border: 0;
+        padding: 0 0 0 5px;
+}
+
+.majorFunding{
+        float: left;
+        width: 110px;
+        text-align: right;
+        margin: 7px 8px 0 15px;
+}
+.cr{
+        clear: both;
+        width: 720px;
+        padding: 10px 0 0 0;
+        text-align: center;
+}
+.producedBy{
+        float: left;
+        width: 80px;
+        text-align: right;
+        padding: 18px 5px 0 0;
+}
+.tvDiv{
+        float: left;
+        width: 180px;
+        text-align: center;
+        padding: 7px 7px 0 7px;
+}
+
+.fundingDiv{
+        float: left;
+        width: 460px;
+        margin: 0;
+        padding: 0;
+}
+.producedByDiv{
+        float: left;
+        width: 300px;
+        margin: 0;
+        padding: 0;
+}
+.fundingTitle{
+        height: 25px;
+        margin: 0;
+        padding: 7px 0 0 150px;
+        text-align: left;
+}
+.producedByTitle{
+        height: 25px;
+        margin: 0;
+        padding: 7px 0 0 80px;
+        text-align: left;
+}
+.seperator{
+        float: left;
+        width: 12px;
+        height: 88px;
+        background-image: url(../media/images/seperator2.gif);
+        background-repeat: no-repeat;
+}
+.rightSide{
+        float: left;
+}
+a.quickLinks:active {
+        color: #453f95;
+        text-decoration: none;
+}
+a.quickLinks:link {
+        color: #453f95;
+        text-decoration: none;
+}
+a.quickLinks:visited {
+        color: #453f95;
+        text-decoration: none;
+}
+a.quickLinks:hover {
+        color: #453f95;
+        text-decoration: underline;
+}
+a:focus{
+        outline: none;
+}
+
+
+
