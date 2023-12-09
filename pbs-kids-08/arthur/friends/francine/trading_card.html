@@ -1,0 +1,281 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<!-- #bbinclude "header.pl" #section#="friends" #pagetitle#="PBS Kids: Arthur: Francine's Trading Card" #character#="francine" -->
+<html>
+<head>
+	<title>Arthur . Friends . Francine's Trading Card | PBS Kids</title>
+
+	<link rel="stylesheet" type="text/css" href="../../arthur.css"> 
+
+<script language="JavaScript">
+
+<!-- Image Rollover Script
+
+// intialize array variables to hold rollover state
+var current_over_array		= new Array("","","");
+var last_over_array			= new Array("","","");
+var stay_on_array			= new Array("friends","","");
+
+// construct new rollover_item
+function rollover_item (img_name,whichSection,width,height) {
+	if (document.images) {
+		// set up image src's
+		if (whichSection == 0) {
+			img_prefix = "/pbskids2008/arthur/images/lnav/nav_" + img_name;
+		} else {
+			if (whichSection == 1) {
+				img_prefix = "/pbskids2008/arthur/friends/images/subnav/" + img_name;
+			} else {
+				img_prefix = "/pbskids2008/arthur/friends/images/rollovers/" + img_name;
+			}
+		}	
+		if (img_name && img_name == stay_on_array[whichSection]) {
+			this.img_off = new Image (width,height);
+			this.img_off.src = img_prefix + "_hit.gif";
+			this.img_on = new Image (width,height);
+			this.img_on.src = img_prefix + "_hit.gif";
+		} else if (img_name && img_name != stay_on_array[whichSection]){
+			this.img_off = new Image (width,height);
+			this.img_off.src = img_prefix + ".gif";
+			this.img_on = new Image (width,height);
+			this.img_on.src = img_prefix + "_roll.gif";
+		}
+
+		// set whichSection
+		this.whichSection = whichSection;
+	}
+}
+
+// new rollover_item
+function new_rollover_item (img_name,whichSection,width,height) {
+    rollover_item [img_name] = new rollover_item (img_name,whichSection,width,height);
+}
+
+// rollover image
+function rollover_mouseover (itemID) {
+	// get theSection
+	var theSection = rollover_item[itemID].whichSection;
+	
+	// rolled over image, swap in rollover state
+    current_over_array[theSection] = itemID;
+    if (current_over_array[theSection] != last_over_array[theSection]) {
+		document [current_over_array[theSection]].src = rollover_item [current_over_array[theSection]].img_on.src;
+		if (last_over_array[theSection] != "") {
+		        document.images [last_over_array[theSection]].src = rollover_item [last_over_array[theSection]].img_off.src;
+		}
+		last_over_array[theSection] = current_over_array[theSection];
+    }
+}
+
+// roll off image
+function rollover_mouseout (itemID) {
+	// get theSection
+	var theSection = rollover_item[itemID].whichSection;
+
+	// rolled off image, swap out rollover state
+	if (current_over_array[theSection] != "") {
+	    document.images [current_over_array[theSection]].src = rollover_item [current_over_array[theSection]].img_off.src;
+	}
+	current_over_array[theSection] = "";
+	last_over_array[theSection] = "";
+}
+
+new_rollover_item ("home",0,72,68);
+new_rollover_item ("friends",0,72,74);
+new_rollover_item ("games",0,72,67);
+new_rollover_item ("print",0,72,68);
+new_rollover_item ("find",0,72,66);
+new_rollover_item ("parentsteachers",0,72,42);
+//-->
+
+<!-- Friends Subnav Rollover Items
+
+// friends subnav items
+new_rollover_item ("favorite_books",1,82,93);
+new_rollover_item ("coloring_page",1,82,93);
+new_rollover_item ("trading_card",1,82,93);
+new_rollover_item("francine",1,307,91);
+//-->
+</script>
+
+</head>
+
+<body style="background-image: url(../../images/backgrounds/friends_background.gif); background-repeat: repeat-y;">
+	
+<!-- PBS Global Kids include -->
+<script type="text/javascript">
+var GA_env = "UA-4005067-1,UA-4005001-1,UA-3966576-1,UA-3999950-1,ET-3999950-2";
+
+var GA_jshost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + GA_jshost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script src="../../../js/ga-494126a3.js" type="text/javascript"></script>
+
+
+
+<table cellspacing="0" cellpadding="0" border="0" width="730">
+<tr>
+
+	<td width="87" align="left" valign="top" class="noprint">
+		<table cellspacing="0" cellpadding="0" border="0" width="87">
+		<tr>
+			<td width="87" height="1"><a href="#skipnav"><img src="../../images/1px.gif" width="1" height="1" alt="Skip Navigation" border="0"></a><a name="top"></a></td>
+		</tr>
+		<tr>
+			<td width="87" height="71" align="center"><a href="/pbskidsgo/"><img src="../../images/lnav/nav_pbskids.gif" width="72" height="71" border="0" alt="PBS Kids"></a></td>
+		</tr>
+
+		<tr>
+			<td width="87" height="68" align="center"><a href="../../index.html" onmouseover="if (document.images) {rollover_mouseover ('home')}; window.status = 'Home'; return true;" onmouseout="if (document.images) {rollover_mouseout ('home')}; window.status = ''; return true;"><img src="../../images/lnav/nav_home.gif" width="72" height="68" name="home" border="0" alt="Home"></a></td>
+		</tr>
+	
+		<tr>
+			<td width="87" height="74" align="center"><a href="../index.html"><img src="../../images/lnav/nav_friends_hit.gif" width="72" height="74" name="friends" border="0" alt="Friends"></a></td>
+		</tr>
+	
+		<tr>
+			<td width="87" height="67" align="center"><a href="../../games/index.html" onmouseover="if (document.images) {rollover_mouseover ('games')}; window.status = 'Games'; return true;" onmouseout="if (document.images) {rollover_mouseout ('games')}; window.status = ''; return true;"><img src="../../images/lnav/nav_games.gif" width="72" height="67" name="games" border="0" alt="Games"></a></td>
+		</tr>
+	
+		<tr>
+			<td width="87" height="68" align="center"><a href="../../print/index.html" onmouseover="if (document.images) {rollover_mouseover ('print')}; window.status = 'Print'; return true;" onmouseout="if (document.images) {rollover_mouseout ('print')}; window.status = ''; return true;"><img src="../../images/lnav/nav_print.gif" width="72" height="68" name="print" border="0" alt="Print"></a></td>
+		</tr>
+	
+		<tr>
+			<td width="87" height="66" align="center"><a href="../../find/index.html" onmouseover="if (document.images) {rollover_mouseover ('find')}; window.status = 'Find'; return true;" onmouseout="if (document.images) {rollover_mouseout ('find')}; window.status = ''; return true;"><img src="../../images/lnav/nav_find.gif" width="72" height="66" name="find" border="0" alt="Find"></a></td>
+		</tr>
+	
+		<tr>
+			<td width="87" height="22" align="center"><a href="/pbskids2008/arthur/parentsteachers/index.html" onmouseover="if (document.images) {rollover_mouseover ('parentsteachers')}; window.status = 'Parents & Teachers'; return true;" onmouseout="if (document.images) {rollover_mouseout ('parentsteachers')}; window.status = ''; return true;"><img src="../../images/lnav/nav_parentsteachers.gif" width="72" height="42" name="parentsteachers" border="0" alt="Parents &amp; Teachers"></a></td>
+		</tr>
+	
+		<tr>
+			<td width="87" height="1"><a name="skipnav"><img src="../../images/1px.gif" width="1" height="1" alt=""></a></td>
+		</tr>
+		</table>
+	</td>
+
+	<td width="643" align="left" valign="top">
+<!-- end bbinclude -->
+
+<!-- Friends Content Table Starts Here -->
+<!-- #bbinclude "::(includes):friends_subnav.pl" #subsection#="trading_card" #character#="francine" -->
+		<table cellspacing="0" cellpadding="0" border="0" width="643" class="noprint">
+		<tr>
+			<td width="307" height="16"><img src="images/francine_header.gif" width="307" height="16" border="0" alt=""></td>
+			<td width="80" height="16"><img src="../../images/1px.gif" width="80" height="16" border="0" alt=""></td>
+			<td width="80" height="16"><img src="../../images/1px.gif" width="80" height="16" border="0" alt=""></td>
+			<td width="80" height="16"><img src="../../images/1px.gif" width="80" height="16" border="0" alt=""></td>
+			<td width="96" height="16"><img src="../../images/1px.gif" width="96" height="16" border="0" alt=""></td>
+		</tr>
+		<tr>
+			<td width="307" height="91" bgcolor="#FFFFFF" align="left" valign="top"><a href="index.html" onmouseover="if (document.images) {rollover_mouseover ('francine')}; window.status = 'francine'; return true;" onmouseout="if (document.images) {rollover_mouseout ('francine')}; window.status = ''; return true;"><img src="../images/subnav/francine.gif" width="307" height="91" border="0" alt="francine" name="francine"></a></td>
+
+			<td width="80" height="91"><a href="favorite_books.html" onmouseover="if (document.images) {rollover_mouseover ('favorite_books')}; window.status = 'Favorite Books'; return true;" onmouseout="if (document.images) {rollover_mouseout ('favorite_books')}; window.status = ''; return true;"><img src="../images/subnav/favorite_books.gif" width="80" height="91" border="0" name="favorite_books" alt="Favorite Books"></a></td>
+	
+			<td width="80" height="91"><a href="coloring_page.html" onmouseover="if (document.images) {rollover_mouseover ('coloring_page')}; window.status = 'Coloring Pages'; return true;" onmouseout="if (document.images) {rollover_mouseout ('coloring_page')}; window.status = ''; return true;"><img src="../images/subnav/coloring_page.gif" width="80" height="91" border="0" name="coloring_page" alt="Coloring Pages"></a></td>
+	
+			<td width="80" height="91"><a href="trading_card.html" onmouseover="window.status = 'Trading Cards'; return true;" onmouseout="window.status = ''; return true;"><img src="../images/subnav/trading_card_roll.gif" width="80" height="91" border="0" name="trading_card" alt="Trading Cards"></a></td>
+	
+			<td width="96" height="91"><img src="../images/friends_window_top.gif" width="96" height="91" border="0" alt=""></td>
+		</tr>
+		</table>
+<!-- end bbinclude -->
+
+<!-- Friends Character-Specific Content -->
+<!-- #bbinclude "::(includes):tradingcard:friends_trading_card.incl" #character#="francine" #character_cap_pos#="Francine's" #next_btn#="next" #next_page_num#="2" #this_page_num#="" -->
+		<!--  -->
+		<table cellspacing="0" cellpadding="0" border="0" width="643">
+		<tr>
+			<td bgcolor="#FFFFFF"><img src="../../images/1px.gif" width="469" height="1" alt=""></td>
+			<td bgcolor="#FFFFFF" class="noprint"><a href="trading_card.html"><img src="../images/subnav/next.gif" alt="next" width="80" height="25" border="0"></a></td>
+			<td bgcolor="#FFFFFF"><img src="../../images/1px.gif" width="88" height="1" alt=""></td>
+			<td rowspan="2" bgcolor="#9999FF"><img src="../../images/1px.gif" width="6" height="1" alt=""></td>
+		</tr><tr>
+			<td colspan="3" bgcolor="#FFFFFF" align="center"><br>
+				<img src="images/francine_card.gif" width="605" height="345" alt="Francine's trading card" longdesc="trading_card_dlink.html">
+				<br>
+				<span class="dlink"><a href="trading_card_dlink.html">D</a></span>
+				Print out my trading cards! Be sure to cut along the dotted line. 
+				<br>
+				Then, fold them in half -- down the solid line. Finally, tape the pieces together.
+			</td>
+		</tr>
+		</table>
+<!-- end bbinclude -->
+
+<!-- Friends Content Table Ends Here -->
+<!-- #bbinclude "::(includes):friends_footer_teaser.incl" #teaser_image#="trading_card" #teaser_URL#="../../print/tradingcards/index.html" #teaser_alt#="Trading Card Index" -->
+		<!--  -->
+		<table cellspacing="0" cellpadding="0" border="0" width="643" class="noprint">
+		<tr>
+			<td width="508" height="135" bgcolor="#FFFFFF"><img src="../../images/1px.gif" width="508" height="1" alt=""></td>
+			<td width="129" height="135" bgcolor="#FFFFFF"><a href="../../print/tradingcards/index.html"><img src="../images/teasers/trading_card.gif" width="129" height="135" alt="Trading Card Index" border="0"></a></td>
+			<td width="6" height="135"><img src="../images/teasers/friends_teaser_right_blue.gif" width="6" height="135" alt="" border="0"></td>
+		</tr>
+		<tr>
+			<td width="508" height="6" bgcolor="#9999FF"><img src="../../images/1px.gif" width="508" height="1" alt=""></td>
+			<td width="135" height="6" colspan="2"><img src="../images/teasers/friends_teaser_bottom_blue.gif" width="135" height="6" alt=""></td>
+		</tr>
+		</table>					
+<!-- end bbinclude -->
+
+<!-- Game Content Table Ends Here -->
+<!-- #bbinclude "footer.pl" #section#="friends" -->
+		<table cellspacing="0" cellpadding="0" border="0" width="643" class="footer">
+		<tr>
+			<td width="15" height="30"><img src="../../images/1px.gif" width="15" height="30" alt=""></td>
+			<td width="20" height="30"><img src="../../images/1px.gif" width="20" height="30" alt=""></td>
+			<td width="573" height="30"><img src="../../images/1px.gif" width="573" height="30" alt=""></td>
+			<td width="20" height="30"><img src="../../images/1px.gif" width="20" height="30" alt=""></td>
+			<td width="15" height="30"><img src="../../images/1px.gif" width="15" height="30" alt=""></td>
+		</tr>
+		<tr>
+			<td width="15"><img src="../../images/1px.gif" width="15" height="1" alt=""></td>
+			<td width="20" height="127"><img src="../../images/footers/friends_left.gif" width="20" height="127" alt=""></td>
+			<td width="573" bgcolor="#FFFFCC" align="center">
+				<table cellspacing="0" cellpadding="0" border="0" width="573" bgcolor="#FFFFCC">
+				<tr>
+					<td align="center" height="5"><img src="../../images/1px.gif" height="5" border="0" alt=""></td>
+				</tr>
+				<tr>
+					<td align="center"><a href="../../index.html">Home</a> / <a href="../index.html">Friends</a> / <a href="../../games/index.html">Games</a> / <a href="../../print/index.html">Print</a> / <a href="../../find/index.html">Find</a> / <a href="/pbskids2008/arthur/parentsteachers/index.html">Parents &amp; Teachers</a> / <a href="/pbskids2008/arthur/parentsteachers/help/">Need Help?</a></td>
+				</tr>
+				<tr>
+					<td align="center" height="5"><img src="../../images/1px.gif" height="5" border="0" alt=""></td>
+				</tr>
+				<tr>
+					<td align="center"><a href="/buster/">Visit POSTCARDS FROM BUSTER</a></td>
+				</tr>
+				<tr>
+					<td align="center" height="20"><img src="../../images/1px.gif" height="20" border="0" alt=""></td>
+				</tr>
+				<tr>
+					<td align="center">
+						<span class="copyright">All characters and underlying materials (including artwork) &copy; Marc Brown.<br>
+						&quot;Arthur&quot; and &quot;D.W.&quot; and all of the ARTHUR characters are trademarks of Marc Brown.<br>
+						<a href="/pbskids2008/arthur/parentsteachers/site/copyright.html">&copy; 2008 WGBH</a></span> 
+					</td>
+				</tr>
+				<tr>
+					<td align="center"><img src="../../images/1px.gif" height="5" alt=""></td>
+				</tr>
+				</table>
+			</td>
+			<td width="20" height="127"><img src="../../images/footers/friends_right.gif" width="20" height="127" alt=""></td>
+			<td width="15"><img src="../../images/1px.gif" width="15" height="1" alt=""></td>
+		</tr>
+		<tr>
+			<td width="15" height="10"><img src="../../images/1px.gif" width="15" height="10" alt=""></td>
+			<td width="20" height="10"><img src="../../images/1px.gif" width="20" height="10" alt=""></td>
+			<td width="573" height="10"><img src="../../images/1px.gif" width="573" height="10" alt=""></td>
+			<td width="20" height="10"><img src="../../images/1px.gif" width="20" height="10" alt=""></td>
+			<td width="15" height="10"><img src="../../images/1px.gif" width="15" height="10" alt=""></td>
+		</tr>
+
+		</table>
+	</td>
+</tr>
+</table>
+</body>
+</html>
+<!-- end bbinclude -->
