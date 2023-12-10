@@ -1,0 +1,23 @@
+<colorschemes>
+            <releaseList>
+              <backgroundColor>0xA4A4E4</backgroundColor>
+              <frameColor>0x4A6A9D</frameColor>
+              <itemBackgroundColor>0xA4A4E4</itemBackgroundColor>
+              <itemBackground2Color>0xA4A4E4</itemBackground2Color>
+              <itemBackgroundHoverColor>0xEFC74E</itemBackgroundHoverColor>
+              <itemBackgroundSelectedColor>0xEFC74E</itemBackgroundSelectedColor>
+              <itemFrameColor>0x89DBD8</itemFrameColor>
+              <textColor>0xFFFFFF</textColor>
+              <text2Color>0xFFFFFF</text2Color>
+              <textFrameColor>0xFFFFFF</textFrameColor>
+              <textHoverColor>0xDA6424</textHoverColor>
+              <textSelectedColor>0xDA6424</textSelectedColor>
+              <thumbnailFrameColor>0xFFFFFF</thumbnailFrameColor>
+              <thumbnailFrameColor>0xFFFFFF</thumbnailFrameColor>
+              <scrollButtonColor>0x838AD8</scrollButtonColor>
+              <scrollIconColor>0xFFFFFF</scrollIconColor>
+              <scrollThumbColor>0x37A8CC</scrollThumbColor>
+              <scrollTrackColor>0x0A70D3</scrollTrackColor>
+              <scrollTrackFrameColor>0x3C3CAD</scrollTrackFrameColor>
+            </releaseList>
+</colorschemes>
